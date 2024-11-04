@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>WebinarHub</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="" name="keywords" />
+        <meta content="" name="description" />
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon" />
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Teko:wght@400;500;600&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- Icon Font Stylesheet -->
+        <link
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+            rel="stylesheet"
+        />
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet" />
+        <link
+            href="lib/owlcarousel/assets/owl.carousel.min.css"
+            rel="stylesheet"
+        />
+        <link
+            href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+            rel="stylesheet"
+        />
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet" />
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div
+            id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center"
+        >
+            <div
+                class="spinner-border position-relative text-primary"
+                style="width: 6rem; height: 6rem"
+                role="status"
+            ></div>
+            <img
+                class="position-absolute top-50 start-50 translate-middle"
+                src="img/icons/icon-1.png"
+                alt="Icon"
+            />
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div
+            class="container-fluid bg-dark p-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="row gx-0 d-none d-lg-flex">
+                <div class="col-lg-7 px-5 text-start">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-3"
+                    >
+                        <a class="text-body px-2" href="tel:+0123456789"
+                            ><i class="fa fa-phone-alt text-primary me-2"></i
+                            >+27211400803</a
+                        >
+                        <a class="text-body px-2" href="mailto:info@example.com"
+                            ><i
+                                class="fa fa-envelope-open text-primary me-2"
+                            ></i
+                            >webinar_hub@gmail.com</a
+                        >
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5 text-end">
+                    <div
+                        class="h-100 d-inline-flex align-items-center py-3 me-2"
+                    >
+                        <a class="text-body px-2" href="terms-of-use.html"
+                            >Terms</a
+                        >
+                        <a class="text-body px-2" href="privacy-policy.html"
+                            >Privacy</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar Start -->
+        <nav
+            class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-lg-5 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="text-primary m-0">WebinarHub</h1>
+            </a>
+            <button
+                type="button"
+                class="navbar-toggler me-4"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarCollapse"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">
+                    <a href="index.html" class="nav-item nav-link active"
+                        >Home</a
+                    >
+                    <a href="about.html" class="nav-item nav-link">About</a>
+                    <a href="service.html" class="nav-item nav-link"
+                        >Services</a
+                    >
+                    <a href="testimonial.html" class="nav-item nav-link"
+                        >Testimonial</a
+                    >
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a
+                    href="index.html#appointment"
+                    class="btn btn-primary py-2 px-4 d-none d-lg-block"
+                    >Appointment</a
+                >
+            </div>
+        </nav>
+        <!-- Navbar End -->
+
+        <!-- Carousel Start -->
+        <div class="container-fluid p-0 pb-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="owl-carousel header-carousel position-relative">
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-1.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-1.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Unlock the Power of Knowledge
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Join our webinars to discover innovative
+                                        insights and strategies that empower you
+                                        in your personal and professional life.
+                                        Our expert speakers cover a variety of
+                                        topics, offering actionable advice to
+                                        help you thrive.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-2.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-2.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Stay Ahead with the Latest Trends
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Keep up to date with emerging trends and
+                                        topics that shape today's world. Our
+                                        webinars provide the latest updates and
+                                        expert analysis to ensure you remain
+                                        informed and engaged.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div
+                    class="owl-carousel-item position-relative"
+                    data-dot="<img src='img/carousel-3.jpg'>"
+                >
+                    <img class="img-fluid" src="img/carousel-3.jpg" alt="" />
+                    <div class="owl-carousel-inner">
+                        <div class="container">
+                            <div class="row justify-content-start">
+                                <div class="col-10 col-lg-8">
+                                    <h1
+                                        class="display-1 text-white animated slideInDown"
+                                    >
+                                        Explore New Horizons
+                                    </h1>
+                                    <p
+                                        class="fs-5 fw-medium text-white mb-4 pb-3"
+                                    >
+                                        Dive into a wide range of topics that
+                                        inspire and educate. Whether it's
+                                        personal development, technology, or
+                                        wellness, our webinars provide valuable
+                                        insights to help you expand your
+                                        horizons.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel End -->
+
+        <!-- Facts Start -->
+        <div class="container-xxl py-5">
+            <div class="container pt-5">
+                <div class="row g-4">
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.1s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-5"
+                        >
+                            <h3 class="mb-3">Engaging Learning Experiences</h3>
+                            <p class="mb-0">
+                                Our webinars provide dynamic learning
+                                experiences designed to inspire and inform. With
+                                expert speakers and interactive content, you'll
+                                gain valuable insights that can be applied in
+                                your personal and professional life.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.3s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-5"
+                        >
+                            <h3 class="mb-3">
+                                Stay Updated with Current Trends
+                            </h3>
+                            <p class="mb-0">
+                                Keep pace with the latest trends across various
+                                fields. Our webinars feature timely updates and
+                                discussions that equip you with knowledge and
+                                strategies to stay relevant in a rapidly
+                                changing world.
+                            </p>
+                        </div>
+                    </div>
+                    <div
+                        class="col-lg-4 col-md-6 wow fadeInUp"
+                        data-wow-delay="0.5s"
+                    >
+                        <div
+                            class="fact-item text-center bg-light h-100 p-5 pt-5"
+                        >
+                            <h3 class="mb-3">Explore Diverse Topics</h3>
+                            <p class="mb-0">
+                                From personal development to technology and
+                                wellness, our webinars cover a wide range of
+                                subjects. Join us to explore different
+                                perspectives and gain insights that enrich your
+                                understanding and skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Facts End -->
+
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                        <div class="approach-img">
+                            <img
+                                class="img-fluid"
+                                src="img/approach.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                        <h4 class="section-title">
+                            A Strategic Approach to Engaging Webinars
+                        </h4>
+                        <h1 class="display-5 mb-4">
+                            Transforming Insights into Actionable Knowledge
+                        </h1>
+                        <p>
+                            Our webinars are designed to transform your
+                            understanding of various topics into actionable
+                            insights. We focus on delivering a comprehensive
+                            view of the subject matter, ensuring you are
+                            equipped to make informed decisions and apply your
+                            knowledge effectively.
+                        </p>
+                        <p class="mb-4">
+                            We begin by analyzing the latest trends and
+                            developments relevant to the topic at hand. Our
+                            speakers provide real-time updates and in-depth
+                            discussions, helping you stay informed and make
+                            strategic choices based on current information. This
+                            approach ensures that you have access to the most
+                            relevant insights at your fingertips.
+                        </p>
+                        <p class="mb-4">
+                            Our webinars cover a wide spectrum of themes,
+                            ranging from personal development to technological
+                            advancements. We offer insights that connect
+                            historical context with contemporary issues,
+                            providing a well-rounded perspective on how various
+                            topics have evolved and where they may be headed.
+                            Whether you're interested in enhancing your skills,
+                            understanding emerging trends, or exploring new
+                            ideas, our webinars are tailored to meet your needs
+                            and engage your curiosity. Join us to gain knowledge
+                            that empowers you to navigate complexities in your
+                            field with confidence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Feature Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="section-title">Why Choose Our Webinars</h4>
+                        <h1 class="display-5 mb-4">
+                            Unlocking the Full Potential of Knowledge
+                        </h1>
+                        <p class="mb-4">
+                            Our webinars offer a unique blend of expertise and
+                            insights designed to empower you with knowledge and
+                            provide a strategic edge in various fields. By
+                            integrating historical context with current trends,
+                            we ensure you receive a comprehensive understanding
+                            of the topics covered, enhancing your
+                            decision-making skills.
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <div class="ms-4">
+                                        <h3>Real-Time Updates and Insights</h3>
+                                        <p class="mb-0">
+                                            Stay informed with our detailed
+                                            updates on the latest trends and
+                                            developments. We provide timely,
+                                            accurate information and expert
+                                            analysis to help you make informed
+                                            decisions and stay ahead of the
+                                            curve.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <div class="ms-4">
+                                        <h3>Explore New Trends and Ideas</h3>
+                                        <p class="mb-0">
+                                            Discover emerging trends and
+                                            innovative approaches that offer
+                                            exciting opportunities for growth.
+                                            Our webinars highlight the latest
+                                            advancements across various fields,
+                                            ensuring you are well-positioned to
+                                            benefit from new developments.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex align-items-start">
+                                    <div class="ms-4">
+                                        <h3>
+                                            Insights from History and Current
+                                            Context
+                                        </h3>
+                                        <p class="mb-0">
+                                            Gain a deep understanding of the
+                                            evolution of ideas and concepts
+                                            throughout history. Our sessions
+                                            combine historical context with
+                                            modern analysis, providing you with
+                                            a well-rounded view that enhances
+                                            your strategic thinking.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="feature-img">
+                            <img
+                                class="img-fluid"
+                                src="img/benefit1.jpg"
+                                alt=""
+                            />
+                            <img
+                                class="img-fluid"
+                                src="img/benefit2.jpg"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Feature End -->
+
+        <!-- Project Start -->
+        <div class="container-xxl project py-5">
+            <div class="container">
+                <div
+                    class="text-center mx-auto mb-5 wow fadeInUp"
+                    data-wow-delay="0.1s"
+                    style="max-width: 600px"
+                >
+                    <h4 class="section-title">
+                        Showcasing Our Recent Webinar Achievements
+                    </h4>
+                    <h1 class="display-5 mb-4">
+                        Recent Sessions That Highlight Our Expertise
+                    </h1>
+                    <p>
+                        Explore our latest webinars, where we apply our in-depth
+                        knowledge and strategic insights to drive engagement and
+                        success. Each session represents a unique challenge and
+                        showcases our ability to deliver tailored solutions that
+                        enhance understanding and provide valuable insights.
+                        From analyzing current trends to exploring historical
+                        contexts, our webinars demonstrate our commitment to
+                        excellence and innovation in education.
+                    </p>
+                </div>
+                <div class="row g-4 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="col-lg-4">
+                        <div
+                            class="nav nav-pills d-flex justify-content-between w-100 h-100 me-4"
+                        >
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4 active"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-1"
+                                type="button"
+                            >
+                                <h3 class="m-0">01. Current Trends Analysis</h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-2"
+                                type="button"
+                            >
+                                <h3 class="m-0">02. Innovative Approaches</h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-4"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-3"
+                                type="button"
+                            >
+                                <h3 class="m-0">
+                                    03. Historical Context Insights
+                                </h3>
+                            </button>
+                            <button
+                                class="nav-link w-100 d-flex align-items-center text-start p-4 mb-0"
+                                data-bs-toggle="pill"
+                                data-bs-target="#tab-pane-4"
+                                type="button"
+                            >
+                                <h3 class="m-0">
+                                    04. Evaluating Emerging Technologies
+                                </h3>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="tab-content w-100">
+                            <div
+                                class="tab-pane fade show active"
+                                id="tab-pane-1"
+                            >
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-1.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Enhancing Understanding with Current
+                                            Insights
+                                        </h1>
+                                        <p class="mb-4">
+                                            In this session, we provided a
+                                            comprehensive analysis of current
+                                            trends and developments. Our team
+                                            utilized advanced analytical tools
+                                            to track relevant information and
+                                            deliver actionable insights, helping
+                                            attendees make informed decisions.
+                                            By integrating real-time data with
+                                            historical context, we ensured that
+                                            participants gained a deeper
+                                            understanding of the subject matter.
+                                        </p>
+                                        <p>
+                                            <i
+                                                class="fa fa-check text-primary me-3"
+                                            ></i
+                                            >Engaging Presentation
+                                        </p>
+                                        <p>
+                                            <i
+                                                class="fa fa-check text-primary me-3"
+                                            ></i
+                                            >Interactive Discussions
+                                        </p>
+                                        <p>
+                                            <i
+                                                class="fa fa-check text-primary me-3"
+                                            ></i
+                                            >Expert Insights
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-2">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-2.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Identifying Emerging Opportunities
+                                        </h1>
+                                        <p class="mb-4">
+                                            This session focused on identifying
+                                            and evaluating innovative approaches
+                                            in various fields. We conducted
+                                            thorough research and analysis to
+                                            uncover promising developments and
+                                            provided strategic recommendations,
+                                            helping participants explore and
+                                            capitalize on new ventures.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-3">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-3.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Leveraging History for Future
+                                            Insights
+                                        </h1>
+                                        <p class="mb-4">
+                                            We embarked on a project to explore
+                                            the historical context of key
+                                            concepts, examining how past events
+                                            have shaped modern understanding. By
+                                            analyzing historical patterns, we
+                                            provided valuable insights that
+                                            informed participants’ strategic
+                                            thinking.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="tab-pane-4">
+                                <div class="row g-4">
+                                    <div
+                                        class="col-md-6"
+                                        style="min-height: 350px"
+                                    >
+                                        <div class="position-relative h-100">
+                                            <img
+                                                class="position-absolute img-fluid w-100 h-100"
+                                                src="img/project-4.jpg"
+                                                style="object-fit: cover"
+                                                alt=""
+                                            />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <h1 class="mb-3">
+                                            Assessing the Potential of Emerging
+                                            Technologies
+                                        </h1>
+                                        <p class="mb-4">
+                                            Our team conducted an in-depth
+                                            evaluation of various emerging
+                                            technologies, assessing their
+                                            potential impact and providing
+                                            strategic advice on how to maximize
+                                            their benefits. We analyzed current
+                                            trends and developments to deliver
+                                            comprehensive recommendations that
+                                            supported attendees in making
+                                            well-informed decisions regarding
+                                            their technological engagements.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project End -->
+
+        <!-- Appointment Start -->
+        <div id="appointment" class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5" style="align-items: center">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <h4 class="section-title">Appointment</h4>
+                        <h1 class="display-5 mb-4">
+                            Make An Appointment To Join Our Upcoming Webinar
+                        </h1>
+                        <p class="mb-4">
+                            Ready to expand your knowledge and engage with
+                            industry experts? Schedule an appointment to join
+                            our upcoming webinar series. Whether you want to
+                            explore new ideas, enhance your skills, or dive into
+                            the latest trends, our sessions are designed to
+                            guide you every step of the way. By booking a
+                            consultation, you'll receive personalized
+                            information and insights tailored to your interests
+                            and goals. Don’t miss out on the opportunity to
+                            grow—contact us today to take the first step toward
+                            enlightenment!
+                        </p>
+                        <div class="row g-4">
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                        style="width: 65px; height: 65px"
+                                    >
+                                        <i
+                                            class="fa fa-2x fa-phone-alt text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-2">Call Us Now</p>
+                                        <h3 class="mb-0">+27211400803</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="d-flex">
+                                    <div
+                                        class="d-flex flex-shrink-0 align-items-center justify-content-center bg-light"
+                                        style="width: 65px; height: 65px"
+                                    >
+                                        <i
+                                            class="fa fa-2x fa-envelope-open text-primary"
+                                        ></i>
+                                    </div>
+                                    <div class="ms-4">
+                                        <p class="mb-2">Mail Us Now</p>
+                                        <h3 class="mb-0">
+                                            webinar_hub@gmail.com
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="row g-3">
+                            <div class="col-12 col-sm-6">
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Your Name"
+                                    style="height: 55px"
+                                />
+                            </div>
+                            <div class="col-12 col-sm-6">
+                                <input
+                                    type="email"
+                                    class="form-control"
+                                    placeholder="Your Email"
+                                    style="height: 55px"
+                                    id="email"
+                                />
+                                <div
+                                    id="result"
+                                    style="color: red; font-size: 12px"
+                                ></div>
+                            </div>
+                            <div class="col-12">
+                                <textarea
+                                    class="form-control"
+                                    rows="5"
+                                    placeholder="Message"
+                                ></textarea>
+                            </div>
+                            <div class="col-12">
+                                <button
+                                    class="btn btn-primary w-100 py-3"
+                                    type="submit"
+                                    id="submit"
+                                    onclick="sendForm()"
+                                >
+                                    Book Appointment
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Appointment End -->
+
+        <!-- Footer Start -->
+        <div
+            class="container-fluid bg-dark text-body footer mt-5 pt-5 px-0 wow fadeIn"
+            data-wow-delay="0.1s"
+        >
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">WebinarHub</h3>
+                        <p>
+                            Thank you for visiting our site! We are dedicated to
+                            providing engaging and informative webinars that
+                            help you expand your knowledge and skills. For any
+                            inquiries, support, or to learn more about our
+                            upcoming sessions, please reach out to us through
+                            the contact details below.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Address</h3>
+                        <p class="mb-2">
+                            <i
+                                class="fa fa-map-marker-alt text-primary me-3"
+                            ></i>
+                            3rd Floor, Mariendahl House Newlands on Main,
+                            Mariendahl Ave, Claremont, Cape Town, 7708, South
+                            Africa
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-phone-alt text-primary me-3"></i>
+                            +27211400803
+                        </p>
+                        <p class="mb-2">
+                            <i class="fa fa-envelope text-primary me-3"></i>
+                            webinar_hub@gmail.com
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <h3 class="text-light mb-4">Quick Links</h3>
+                        <a class="btn btn-link" href="about.html">About Us</a>
+                        <a class="btn btn-link" href="contact.html"
+                            >Contact Us</a
+                        >
+                        <a class="btn btn-link" href="services.html"
+                            >Our Webinars</a
+                        >
+                        <a class="btn btn-link" href="terms-of-use.html"
+                            >Terms & Conditions</a
+                        >
+                        <a class="btn btn-link" href="privacy-policy.html"
+                            >Privacy Policy</a
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"
+            ><i class="bi bi-arrow-up"></i
+        ></a>
+
+        <!-- Cookie banner -->
+        <div class="cookie-wrapper show">
+            <div>
+                <i class="bx bx-cookie"></i>
+                <h2 style="text-align: center">Cookie Consent</h2>
+            </div>
+
+            <div class="data">
+                <p>
+                    This website uses cookies to provide you with a superior and
+                    more relevant browsing experience on the site.
+                    <a href="#">Learn more...</a>
+                </p>
+            </div>
+
+            <div class="buttons">
+                <button class="cookie-button" id="acceptBtn">Accept</button>
+                <button class="cookie-button" id="declineBtn">Decline</button>
+            </div>
+        </div>
+        <!-- End Cookie banner -->
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/tempusdominus/js/moment.min.js"></script>
+        <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+        <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+        <script src="js/contact-form.js"></script>
+        <script src="js/cookiebanner.js"></script>
+    </body>
+</html>
